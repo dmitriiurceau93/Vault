@@ -1,7 +1,7 @@
 app:
     name: Vault
     code: VAULT
-    notify: appzdev@cloudbourne.co
+    notify: iurceacdmitri@gmail.com
 
 build:
     version: 0.4
@@ -9,10 +9,10 @@ build:
     build_file: none
     output_files: output/*.zip
     image_template: vault-1.2
-    image_name: alpha/vault
+    image_name: dmitriiurceau93/vault
 
 deploy:
-    context: alpha/DEV
+    context: dmitriiurceau93/DEV
     type: statefulset
     replicas: 1
     port:
